@@ -40,10 +40,7 @@ def test_form_fill():
 #     form.company("SkyPro")
 #     form.send_form()
 
-#     as_is = 1
-#     to_be = form.empty_zip_result_is_red()
-#     assert as_is == to_be
-
+#     assert form.empty_zip_result_is_red()
 #     browser.quit()
 
 # def test_green_elements():
@@ -61,9 +58,7 @@ def test_form_fill():
 #     form.company("SkyPro")
 #     form.send_form()
 
-#     classes = form.other_elements_result_is_green()
-#     assert 'alert-success' in classes
-
+#     assert form.other_elements_result_is_green()
 #     browser.quit()
 
 
